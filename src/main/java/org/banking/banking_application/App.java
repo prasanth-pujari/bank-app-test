@@ -16,7 +16,8 @@ public class App
 	public static void main( String[] args )throws Throwable
     {
     	System.out.println("Script Started");	 
-    	WebDriver driver = WebDriverManager.chromedriver().create();
+    	WebDriverManager.chromedriver().setup();
+    	//setting properties
     	ChromeOptions chromeOptions = new ChromeOptions();
     	chromeOptions.addArguments("--headless");
     	driver.get("http://3.106.214.151:8083/contact.html");
