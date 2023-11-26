@@ -19,7 +19,7 @@ public class App
     	WebDriver driver = WebDriverManager.chromedriver().create();
     	ChromeOptions chromeOptions = new ChromeOptions();
     	chromeOptions.addArguments("--headless");
-    	driver.get("http://54.252.243.226:8083/contact.html");
+    	driver.get("http://3.106.214.151:8083/contact.html");
 //driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);     	
 		System.out.println("Entering details in the form");     	
 		driver.manage().window().maximize();     
